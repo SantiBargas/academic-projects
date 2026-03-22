@@ -1,0 +1,73 @@
+$date
+	Wed Nov 06 16:05:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_tb $end
+$var wire 32 ! result [31:0] $end
+$var reg 3 " ALUControl [2:0] $end
+$var reg 32 # srcA [31:0] $end
+$var reg 32 $ srcB [31:0] $end
+$scope module UUT $end
+$var wire 3 % ALUControl [2:0] $end
+$var wire 32 & srcA [31:0] $end
+$var wire 32 ' srcB [31:0] $end
+$var reg 32 ( result [31:0] $end
+$var reg 32 ) zero [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 )
+b11110 (
+b10100 '
+b1010 &
+b0 %
+b10100 $
+b1010 #
+b0 "
+b11110 !
+$end
+#1000000
+b10100 !
+b10100 (
+b1 "
+b1 %
+b1010 $
+b1010 '
+b11110 #
+b11110 &
+#2000000
+b1000 !
+b1000 (
+b10 "
+b10 %
+b1100 $
+b1100 '
+b1010 #
+b1010 &
+#3000000
+b1110 !
+b1110 (
+b11 "
+b11 %
+#4000000
+b1 !
+b1 (
+b101 "
+b101 %
+b1010 $
+b1010 '
+b101 #
+b101 &
+#5000000
+b0 !
+b0 (
+b1111 #
+b1111 &
+#6000000

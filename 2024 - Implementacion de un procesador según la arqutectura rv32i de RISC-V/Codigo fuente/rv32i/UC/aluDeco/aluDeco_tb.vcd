@@ -1,0 +1,85 @@
+$date
+	Wed Nov 06 16:12:23 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module aluDeco_tb $end
+$var wire 3 ! aluControl [2:0] $end
+$var reg 2 " aluOp [1:0] $end
+$var reg 3 # f3 [2:0] $end
+$var reg 1 $ f7 $end
+$var reg 1 % op $end
+$scope module uut $end
+$var wire 2 & aluOp [1:0] $end
+$var wire 3 ' f3 [2:0] $end
+$var wire 1 $ f7 $end
+$var wire 1 % op $end
+$var reg 3 ( aluControl [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 !
+b1 (
+b1 "
+b1 &
+#20000
+b0 !
+b0 (
+b10 "
+b10 &
+#30000
+b0 !
+b0 (
+1%
+#40000
+b0 !
+b0 (
+1$
+0%
+#50000
+b1 !
+b1 (
+1%
+#60000
+b101 !
+b101 (
+0$
+0%
+b10 #
+b10 '
+#70000
+b11 !
+b11 (
+b110 #
+b110 '
+#80000
+b10 !
+b10 (
+b111 #
+b111 '
+#90000
+bx !
+bx (
+b101 #
+b101 '
+#100000
+1$
+b1 #
+b1 '
+#110000

@@ -1,0 +1,35 @@
+$date
+	Wed Nov 06 16:23:50 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module IM_tb $end
+$var wire 32 ! inst [31:0] $end
+$var reg 5 " addressIM [4:0] $end
+$scope module im_module $end
+$var wire 5 # addressIM [4:0] $end
+$var reg 32 $ inst [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+b0 "
+bx !
+$end
+#10000
+b1 "
+b1 #
+#20000
+b10 "
+b10 #
+#30000
+b11 "
+b11 #
+#40000
