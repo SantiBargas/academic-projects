@@ -1,0 +1,33 @@
+# Dataset — no subir al repositorio (descargar desde HuggingFace, ver README)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Informe (LaTeX)
+Informe/
+
+# Instrucciones de proyecto para Claude Code
+CLAUDE.md
